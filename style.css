@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+
+}
+div{
+    width: 1500x;
+    height: 650px;
+}
+table{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+p{
+    background-color: initial;
+    text-align: left;
+    font-size: 0.6em;
+}
+td{
+    transition: 0.5s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 100px;
+    empty-cells: hide;
+    color: white;
+    font-size: 1em;
+    padding: 0.8em 0.8em;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    border: 1px solid black;    
+}
+sup{
+    background-color: initial;
+}
+.Number{
+    text-align: center;
+    font-size: 0.9em;
+}
+h1{
+    font-size: 3em;
+}
+.cyan{
+    background-color: rgb(43, 184, 184);
+}
+.brightblue{
+    background-color: rgba(40, 40, 223, 0.808);
+}
+.lightpurple{
+    background-color: blueviolet;
+}
+.lightred{
+    background-color: rgb(241, 67, 67);
+}
+.dullblue{
+    background-color: rgb(49, 49, 112);
+}
+.dullpurple{
+    background-color: rgb(85, 22, 85);
+}
+.brightgreen{
+    background-color: rgb(51, 180, 51);
+}
+.seablue{
+    background-color: rgb(0, 105, 148) ;
+}
+.dullorange{
+    background-color: rgb(230, 131, 39);
+}
+.dullyellow{
+    background-color: rgb(241, 167, 30);
+}
+.grey{
+    background-color: grey;
+}
+td:hover{
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px #ff0000;
+    color: #fff;
+}
+.Number:hover{
+    transform: initial;
+    cursor: default;
+    box-shadow: 0px;
+    text-shadow: 0px 0px 0px;
+}
+.sentences:hover{
+    cursor: default;
+    transform: initial;
+    box-shadow: 0px;
+    text-shadow: 0px 0px 0px;
+}
